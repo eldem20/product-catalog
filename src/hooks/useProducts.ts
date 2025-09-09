@@ -5,7 +5,7 @@ import { Product } from '../types/products'
 export function useProducts() {
     const [products, setProducts] = useState<Product[]>([])
     const [loading, setLoading] = useState(true)
-    const [error, setError] = useState('')
+    const [error] = useState('')
 
     useEffect(() => {
         const mockProducts: Product[] = [

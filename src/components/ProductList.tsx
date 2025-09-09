@@ -8,8 +8,6 @@ import { useState } from "react";
 
 import FiltersType from "./Filters";
 
-import useCart from '../hooks/useCart';
-
 import { Product } from '../types/products';
 
 interface Props {
